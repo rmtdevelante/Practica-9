@@ -1,0 +1,77 @@
+.circulo{/*Como al contenedor le dimos un "class" desde aquí podemos modifcar*/
+    width: 100px; /* anchura del circulo a 100 pixeles*/
+    height: 100px; /* altura del circulo a 100 pixeles*/
+    border-radius: 50%; /* hace que el borde sea redondo */
+    background-color: blue;/*Con esto indicamos que el circulo será azul*/
+    border-style: solid;/* Establece el estilo del borde del circulo como sólido. Se hace el borde sólido para 
+    que se vea*/
+    margin-bottom: 10px;/*Agrega un margen inferior de 10 píxeles al circulo.*/
+    display: block;/*Hace que el elemento se muestre como un bloque, ocupando todo el ancho disponible
+    y comenzando en una nueva línea.*/
+    margin-left: auto;/*Esto establece automáticamente el margen izquierdo del circulo, lo que resulta en un
+    espacio uniformemente distribuido entre el borde izquierdo del circulo y el borde izquierdo de su 
+    contenedor.*/
+    margin-right: auto;/*Esto establece automáticamente el margen derecho del circulo, lo que resulta en un 
+    espacio uniformemente distribuido entre el borde derecho del circulo y el borde derecho de su contenedor.*/
+}
+.rectangulo{/*Se modifica el contenedor cuyo "class" es rectangulo*/
+    height: 100px;/* anchura del rectangulo a 100 pixeles*/
+    width: 150px;/* altura del rectangulo a 150 pixeles*/
+    background-color: brown;/*Con esto indicamos que el fonde del rectángulo será color brown*/
+    display: block;/*Hace que el rectángulo se muestre como un bloque, ocupando todo el ancho disponible
+    y comenzando en una nueva línea.*/
+    margin-bottom: 10px;/*Agrega un margen inferior de 10 píxeles al recángulo.*/
+    margin-left: auto;/*Esto establece automáticamente el margen izquierdo del rectángulo, lo que resulta en un
+    espacio uniformemente distribuido entre el borde izquierdo del rectángulo y el borde izquierdo de su 
+    contenedor.*/
+    margin-right: auto;/*Esto establece automáticamente el margen derecho del rectángulo, lo que resulta en un 
+    espacio uniformemente distribuido entre el borde derecho del rectánguo y el borde derecho de su contenedor.*/
+}
+
+.triangulo{/*Al igual que los otros contenedores ponemos un "class" para poder modificarlo*/
+    width: 0;/*Establece el ancho del triangulo en 0 píxeles. Esto significa que el triangulo no tendrá ancho
+    visible en la página y será invisible en términos de ocupar espacio horizontal.*/
+    height: 0;/*stablece la altura del triangulo en 0 píxeles. Esto significa que el triangulo no tendrá altura 
+    visible en la página y será invisible en términos de ocupar espacio vertical.*/
+    border: 150px solid transparent; /* Establece un borde alrededor del triangulo con un grosor de 150 píxeles 
+    y un estilo sólido. El borde es completamente transparente, lo que significa que no será visible en la página. 
+    Este estilo puede ser útil para crear un espacio adicional alrededor del triangulo sin que el borde sea 
+    visible.*/
+    border-top: 0;/*Elimina el borde superior del triangulo. Esto significa que no habrá un borde en la 
+    parte superior del triangulo.*/
+    border-bottom: 150px solid rgb(232, 6, 176); /*Establece un borde en la parte inferior del triangulo con un 
+    grosor de 150 píxeles y de color rosa (definido por su valor RGB). Este borde representa la altura de la 
+    "división".*/
+    margin-left: auto;/*Establece el margen izquierdo del triangulo como "automático". Esto significa que el 
+    navegador calculará automáticamente el valor del margen izquierdo para centrar horizontalmente el triangulo
+    dentro de su contenedor.*/
+    margin-right: auto;/*Establece el margen derecho del elemento como "automático". Esto, junto con margin-left:
+    auto;, permite que el elemento se centre horizontalmente dentro de su contenedor, ya que los márgenes 
+    izquierdo y derecho se ajustarán automáticamente.*/
+    display: block;/* Hace que el elemento se muestre como un bloque. Los elementos de bloque ocupan todo el ancho 
+    disponible en su contenedor y comienzan en una nueva línea. Esto asegura que el elemento se ajuste 
+    correctamente al centrarse horizontalmente.*/
+}
+.rombo{/*Por último ponemos un contenedor para convertilo en un rombo*/
+    width: 150px; /* anchura del rombo a 150 pixeles*/
+    height: 150px;/* altura del rombo a 150 pixeles*/
+    background-color: aqua;/*Con esto indicamos que el rombo será azul aqua*/
+    position: relative;/*Establece la posición del rombo como "relativa" en relación con su posición original
+    en el flujo normal del documento. Esto significa que el rombo se moverá o se posicionará en relación con 
+    su posición original*/
+    transform: rotate(45deg); /* Giramos el div 45 grados en sentido horario*/
+    margin-top: 50px;/*Establece el margen superior del rombo en 50 píxeles. Esto añadirá un espacio de
+    50 píxeles entre el borde superior del rombo y el borde superior del contenedor o del elemento adyacente 
+    superior.*/
+    margin-left: 40px;/* Establece el margen izquierdo del rombo en 40 píxeles. Esto añadirá un espacio de 
+    40 píxeles entre el borde izquierdo del rombo y el borde izquierdo del contenedor o del elemento adyacente 
+    izquierdo.*/
+    border-style: solid;/*Establece el estilo del borde del rombo como "sólido". Esto significa que el borde 
+    tendrá una apariencia continua y sólida alrededor del rombo.*/
+    margin-left: auto;/*Este estilo establece automáticamente el margen izquierdo del elemento. Cuando se combina 
+    con margin-right: auto;, esto centra horizontalmente el elemento dentro de su contenedor,
+     ya que el navegador distribuirá automáticamente el espacio disponible a izquierda y derecha por igual.*/
+    margin-right: auto;/*Establece automáticamente el margen derecho del elemento. Cuando se utiliza junto con
+     margin-left: auto;, esto centra horizontalmente el elemento dentro de su contenedor, ya que el navegador 
+     distribuirá automáticamente el espacio disponible a izquierda y derecha por igual.*/
+}
